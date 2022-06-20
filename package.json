@@ -1,0 +1,24 @@
+{
+  "name": "mern-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvlannasik/MERN-API.git"
+  },
+  "author": "Noval Annasik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvlannasik/MERN-API/issues"
+  },
+  "homepage": "https://github.com/nvlannasik/MERN-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
