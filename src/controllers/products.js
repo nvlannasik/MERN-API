@@ -21,3 +21,21 @@ exports.getAllProducts = (req, res, next) => {
   });
   next();
 };
+
+exports.getProductById = (req, res, next) => {
+  res.json({
+    message: 'Get product by id',
+    data: { [req.params.id]: 'Product 1' },
+  });
+  next();
+};
+
+exports.updateProduct = (req, res, next) => {
+  res.send('Update Product');
+  next();
+};
+
+exports.deleteProduct = (req, res, next) => {
+  res.send('Delete Product');
+  next();
+};
